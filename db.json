@@ -1,0 +1,37 @@
+{
+  "diets": [
+    {
+      "id": 0,
+      "food": "bagel",
+      "calories": "300"
+    },
+    {
+      "id": 1,
+      "food": "cream cheese",
+      "calories": "50"
+    },
+    {
+      "id": 2,
+      "food": "eggs",
+      "calories": "60"
+    },
+    {
+      "id": 3,
+      "food": "granola",
+      "calories": "210"
+    },
+    {
+      "id": 4,
+      "food": "greek yogurt",
+      "calories": "130"
+    },
+    {
+      "day": "monday",
+      "id": 5
+    },
+    {
+      "day": "",
+      "id": 6
+    }
+  ]
+}
