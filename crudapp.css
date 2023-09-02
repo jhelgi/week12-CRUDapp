@@ -5,4 +5,11 @@
 
 .card {
     background-color: lightgray;
+    text-align: center;
 }
+
+#bar {
+    margin: 1rem;
+    justify-content: center;
+}
+

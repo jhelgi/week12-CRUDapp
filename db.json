@@ -1,5 +1,5 @@
 {
-  "diets": [
+  "foods": [
     {
       "id": 0,
       "food": "bagel",
@@ -24,14 +24,6 @@
       "id": 4,
       "food": "greek yogurt",
       "calories": "130"
-    },
-    {
-      "day": "monday",
-      "id": 5
-    },
-    {
-      "day": "",
-      "id": 6
     }
   ]
 }

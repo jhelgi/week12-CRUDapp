@@ -9,27 +9,60 @@
 
 </head>
 <body>
-
+<!-- food tracker input -->
     <div class="card">
-        <div class="title">
-            <h1>Diet Tracker</h1>
-        </div>
         <div class="card-body">
-            <div class="row">
-                <div class="col-sm">
-                    <div class="form-group">
-                        <label for="new-date" id="date">What day?</label>
-                        <input type="text" class="form-control" id="dayOfWeek">
+            <form>
+                <h3>Food Tracker</h3>
+                <div class="row">
+                    <div id="bar">
+                        <label for="newFood"><strong>What'd You Eat?</strong></label>
+                        <input id="food" placeholder="Enter Food"/>
                     </div>
+                    <div id="bar">
+                        <label for="newCalories"><strong>Calories</strong></label>
+                        <input id="calories" placeholder="How Many?"/>
+                    </div>
+                    <button class="btn btn-success mt-3" id="submitFood"><strong>Start Tracking</strong></  button>
                 </div>
-            </div>
-            <button id="createDiet" class="btn btn-success form-control mt-3">Start Tracking</button>
+            </form>
         </div>
     </div>
-
-    <div id="list">
-
+<!-- food update input -->
+    <div class="card">
+        <div class="card-body">
+            <form>
+                <h3>Update Food</h3>
+                <div class="row">
+                    <div id="bar">
+                        <label for="updateId"><strong>Food ID</strong></label>
+                        <input id="updateId" placeholder="ID"/>
+                    </div>
+                    <div id="bar">
+                        <label for="updateFood"><strong>Update Food</strong></label>
+                        <input id="updateFood" placeholder="New"/>
+                    </div>
+                    <div id="bar">
+                        <label for="updateCalories"><strong>Update Calories</strong></label>
+                        <input id="updateCalories" placeholder="New"/>
+                    </div>
+                    <button class="btn btn-warning mt-3" id="updateNew"><strong>Update</strong></button>
+                </div>
+            </form>
+        </div>
     </div>
+<!-- user input table data -->
+      <table class="container mt-3">
+        <thead>
+          <th>ID</th>
+          <th>Food</th>
+          <th>Calories</th>
+          <th>Delete Food</th>
+        </thead>
+        <tbody>
+  
+        </tbody>
+      </table>
 
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
